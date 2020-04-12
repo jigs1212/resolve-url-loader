@@ -15,7 +15,7 @@ var path        = require('path'),
  * @return {function} value processing function
  */
 function valueProcessor(filename, options) {
-  var URL_STATEMENT_REGEX = `/(${options.function ? options.function : 'url'}\s*\()\s*(?:(['"])((?:(?!\2).)*)(\2)|([^'"](?:(?!\)).)*[^'"]))\s*(\))/g`;
+  var URL_STATEMENT_REGEX = /([\s*-]?url\s*\()\s*(?:(['"])((?:(?!\2).)*)(\2)|([^'"](?:(?!\)).)*[^'"]))\s*(\))/g;
   var directory = path.dirname(filename);
   var join      = options.join(filename, options);
 
