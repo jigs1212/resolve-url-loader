@@ -1,4 +1,5 @@
 {
+  "name":"resolve-url-loader",
   "author": "jigs1212",
   "license": "MIT",
   "private": false,
