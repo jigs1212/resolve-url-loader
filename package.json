@@ -1,6 +1,7 @@
 {
   "name":"resolve-url-loader",
   "author": "jigs1212",
+  "version": "0.0.1",
   "license": "MIT",
   "private": false,
   "workspaces": [
