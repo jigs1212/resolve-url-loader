@@ -1,7 +1,7 @@
 {
-  "author": "bholloway",
+  "author": "jigs1212",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
